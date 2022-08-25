@@ -13,7 +13,7 @@ def print_info(tracker, control):
 
 def main():
     topic = 'order'
-    path = ""
+    path = "data/orders_2.csv"
 
     tracker = TrackOrders()
     control = InventoryControl()
